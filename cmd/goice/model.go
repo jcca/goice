@@ -83,8 +83,8 @@ type (
 	}
 
 	Rules struct {
-		Inputs  []Input  `json:"-"`
-		Outputs []Output `json:"-"`
+		Inputs  []Input  `json:"input"`
+		Outputs []Output `json:"output"`
 	}
 
 	Board struct {
@@ -151,10 +151,10 @@ type Point struct {
 }
 
 type Wire struct {
-	Source *Resource `json:"source,omitempty"`
-	Target *Resource `json:"target,omitempty"`
-	Size   int       `json:"size,omitempty"`
-	//ToDelete bool      `json:"todelete,omitempty"`
+	Source   *Resource `json:"source,omitempty"`
+	Target   *Resource `json:"target,omitempty"`
+	Size     int       `json:"size,omitempty"`
+	ToDelete bool      `json:"todelete,omitempty"`
 	//Vertices X, Y
 }
 
