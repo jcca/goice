@@ -4,7 +4,7 @@ Herramienta para usar .ice desde la consola
 
 ## Limitaciones
 
-* Solo puede **leer** archivos *.ice y generar archivos main.v y main.pfc
+* Solo puede **leer** archivos *.ice y generar archivos main.v y main.pcf
 
 
 ## Instalar
